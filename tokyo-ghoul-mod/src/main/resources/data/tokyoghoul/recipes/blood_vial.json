@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "tokyoghoul:rc_cell", "count": 5},
+        {"item": "minecraft:glass_bottle"}
+    ],
+    "result": {"item": "tokyoghoul:blood_vial", "count": 1}
+}

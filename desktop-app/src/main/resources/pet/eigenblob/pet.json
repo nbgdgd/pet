@@ -1,0 +1,9 @@
+{
+  "id": "eigenblob",
+  "displayName": "Eigenblob",
+  "description": "Blue blob Codex pet from the codex-pet.com community gallery.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "source": "https://codex-pet.com/pets/eigenblob",
+  "licenseNote": "No explicit license on the gallery page; personal non-commercial use with attribution. See CREDITS.md."
+}

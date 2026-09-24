@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "default": "tokyoghoul:textures/entity/kakuja_mutant.png",
+        "rage": "tokyoghoul:textures/entity/kakuja_mutant_rage.png"
+    }
+}

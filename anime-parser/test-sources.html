@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Anime Parser Test</title></head>
+<body>
+<h2>Тест источников</h2>
+<div id="output"></div>
+<script>
+async function test() {
+  const out = document.getElementById('output');
+  const log = (msg) => { out.innerHTML += '<p>' + msg + '</p>'; };
+  
+  // Test 1: AnimeGO search
+  try {
+    let r = await fetch('https://animego.me/search?q=Наруто', {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
+    });
+    let html = await r.text();
+    log('✅ AnimeGO: ' + html.length + ' bytes');
+    // Find anime cards
+    let match = html.match(/anime-card/g);
+    log('Найдено карточек: ' + (match ? match.length : 0));
+  } catch(e) { log('❌ AnimeGO: ' + e.message); }
+
+  // Test 2: Shikimori API
+  try {
+    let r = await fetch('https://shikimori.one/api/animes?search=Naruto&limit=3');
+    let data = await r.json();
+    log('✅ Shikimori: ' + data.length + ' результатов');
+  } catch(e) { log('❌ Shikimori: ' + e.message); }
+}
+test();
+</script>
+</body>
+</html>

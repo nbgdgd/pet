@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "default": "tokyoghoul:textures/entity/ghoul.png",
+        "kakugan": "tokyoghoul:textures/entity/ghoul_kakugan.png"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "tokyoghoul:kagune_crystal_ukaku"},
+        "title": {"translate": "advancements.tokyoghoul.boss_ghoul.title"},
+        "description": {"translate": "advancements.tokyoghoul.boss_ghoul.description"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:kagune_evolve",
+    "criteria": {
+        "kill_boss": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

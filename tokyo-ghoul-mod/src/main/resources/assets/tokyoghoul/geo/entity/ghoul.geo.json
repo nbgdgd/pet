@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "tokyoghoul:ghoul",
+                "texture_width": 128,
+                "texture_height": 128,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 3,
+                "visible_bounds_offset": [0, 1.5, 0]
+            },
+            "bones": [
+                {"name": "body", "pivot": [0, 12, 0], "cubes": [{"origin": [-4, 0, -2], "size": [8, 12, 4], "uv": [16, 16]}]},
+                {"name": "head", "pivot": [0, 24, 0], "cubes": [{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}]},
+                {"name": "left_arm", "pivot": [-5, 22, 0], "cubes": [{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 16]}]},
+                {"name": "right_arm", "pivot": [5, 22, 0], "cubes": [{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [40, 16]}]},
+                {"name": "left_leg", "pivot": [-2, 12, 0], "cubes": [{"origin": [-4, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}]},
+                {"name": "right_leg", "pivot": [2, 12, 0], "cubes": [{"origin": [0, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}]},
+                {"name": "kagune_ukaku", "pivot": [0, 22, -4], "cubes": [
+                    {"origin": [-1, 20, -12], "size": [2, 4, 8], "uv": [56, 0], "rotation": [0, 0, 0]}
+                ]},
+                {"name": "kagune_koukaku", "pivot": [0, 22, 0], "cubes": [
+                    {"origin": [-5, 16, -3], "size": [10, 6, 6], "uv": [56, 16], "rotation": [0, 0, 0]}
+                ]},
+                {"name": "kagune_rinkaku", "pivot": [0, 22, 0], "cubes": [
+                    {"origin": [-3, 18, -8], "size": [6, 4, 6], "uv": [56, 32], "rotation": [-20, 0, 0]}
+                ]},
+                {"name": "kagune_bikaku", "pivot": [0, 22, 4], "cubes": [
+                    {"origin": [-2, 20, 4], "size": [4, 4, 8], "uv": [56, 48], "rotation": [0, 0, 0]}
+                ]}
+            ]
+        }
+    ]
+}

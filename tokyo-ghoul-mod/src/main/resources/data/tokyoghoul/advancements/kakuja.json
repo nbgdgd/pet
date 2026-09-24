@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "minecraft:nether_star"},
+        "title": {"translate": "advancements.tokyoghoul.kakuja.title"},
+        "description": {"translate": "advancements.tokyoghoul.kakuja.description"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:kagune_evolve",
+    "criteria": {
+        "achieve_kakuja": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

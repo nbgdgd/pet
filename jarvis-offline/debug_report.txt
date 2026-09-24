@@ -1,0 +1,98 @@
+
+============================================================
+  SISTEM INFO
+============================================================
+Python: 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+OS: win32
+CWD: D:\AndroidProjects\AniBlaze
+Script dir: D:\AndroidProjects\AniBlaze\jarvis-offline
+
+============================================================
+  CONFIG
+============================================================
+MODEL_PATH: D:\AndroidProjects\AniBlaze\jarvis-offline\models\vosk-ru
+Model dir exists: True
+am/final.mdl exists: True
+graph/HCLr.fst exists: True
+Model total size: 87.1 MB
+
+============================================================
+  VOICE FILES
+============================================================
+  og/: 13 files
+  howdy/: 18 files
+  remaster/: 25 files
+
+============================================================
+  SOUNDDEVICE
+============================================================
+Total devices: 51
+Default input:  [1] Головной телефон (soundcore Spa
+Default output: [4] FxSound Speakers (FxSound Audio
+  IN  [0] Переназначение звуковых устр. - Input (ch=2, rate=44100.0)
+  IN  [1] Головной телефон (soundcore Spa (ch=1, rate=44100.0)
+  IN  [2] Внутренний разъем  AUX (FxSound (ch=8, rate=44100.0)
+  IN  [11] Первичный драйвер записи звука (ch=2, rate=44100.0)
+  IN  [12] Головной телефон (soundcore Space One) (ch=1, rate=44100.0)
+  IN  [13] Внутренний разъем  AUX (FxSound Audio Enhancer) (ch=8, rate=44100.0)
+  IN  [29] Головной телефон (soundcore Space One) (ch=1, rate=16000.0)
+  IN  [33] Input (OCULUSVAD Wave Speaker Headphone) (ch=2, rate=44100.0)
+  IN  [34] Headset Microphone (OCULUSVAD Wave Microphone Headphone) (ch=1, rate=48000.0)
+  IN  [35] Лин. вход (Realtek HD Audio Line input) (ch=2, rate=44100.0)
+  IN  [36] Микрофон (Realtek HD Audio Mic input) (ch=2, rate=44100.0)
+  IN  [39] Стерео микшер (Realtek HD Audio Stereo input) (ch=2, rate=48000.0)
+  IN  [43] Головной телефон (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(soundcore Space One)) (ch=1, rate=16000.0)
+  IN  [44] Input () (ch=8, rate=44100.0)
+  IN  [46] Микрофон (Steam Streaming Microphone Wave) (ch=8, rate=44100.0)
+  IN  [48] Input (Steam Streaming Speakers Wave) (ch=8, rate=44100.0)
+
+============================================================
+  VOSK MODEL LOAD
+============================================================
+Model loaded in 0.7s
+Recognizer created OK
+
+============================================================
+  TTS (pyttsx3)
+============================================================
+Voices: 2
+  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0: Microsoft Irina Desktop - Russian lang=['ru-RU']
+  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0: Microsoft Zira Desktop - English (United States) lang=['en-US']
+pyttsx3 speak OK
+
+============================================================
+  VOICE PLAYBACK (winsound)
+============================================================
+winsound playback OK: D:\AndroidProjects\AniBlaze\jarvis-offline\voices\og\run.wav
+
+============================================================
+  MICROPHONE RECORD TEST
+============================================================
+Recording 2 seconds of audio...
+RMS volume: 4918604.18
+Max sample: 26806
+GOOD: Mic input level is healthy.
+
+============================================================
+  VOSK RECOGNITION TEST
+============================================================
+Recognition result: 'да'
+VOICE DETECTED: Mic + Vosk pipeline works!
+
+============================================================
+  ROUTER TEST
+============================================================
+  'закрой проводник' -> close_explorer (106%)
+  'открой проводник' -> open_explorer (106%)
+  'который час' -> say_time (106%)
+  'какая дата' -> say_date (106%)
+  'выключи звук' -> mute_volume (106%)
+  'громче' -> set_volume_max (103%)
+
+============================================================
+  SUMMARY
+============================================================
+
+Log saved to debug_report.txt
+Total log lines: 84

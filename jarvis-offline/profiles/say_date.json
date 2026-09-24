@@ -1,0 +1,10 @@
+{
+  "samples": [
+    "какой час"
+  ],
+  "patterns": [
+    "какой",
+    "час"
+  ],
+  "action": "commands.time_date.say_date"
+}

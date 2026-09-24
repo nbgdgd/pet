@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tv_background">#FF1A1A2E</color>
+    <color name="tv_surface">#FF16213E</color>
+    <color name="tv_primary">#FF0F3460</color>
+    <color name="tv_accent">#FFE94560</color>
+    <color name="tv_text">#FFFFFFFF</color>
+    <color name="tv_text_dim">#FFB0B0B0</color>
+    <color name="tv_button_bg">#FFE94560</color>
+    <color name="tv_button_text">#FFFFFFFF</color>
+    <color name="overlay_background">#CC000000</color>
+    <color name="overlay_button">#FFE94560</color>
+</resources>

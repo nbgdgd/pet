@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($r=\"$env:APPDATA\\\\Claude\"; $l=\"$env:LOCALAPPDATA\\\\Claude\"; foreach\\($d in @\\($r,$l\\)\\){ if\\(Test-Path $d\\){ \"=== $d ===\"; Get-ChildItem $d -Force | Select-Object Mode,LastWriteTime,Length,Name | Format-Table -AutoSize } else { \"MISSING: $d\" } })",
+      "PowerShell(Get-ChildItem \"$env:APPDATA\",\"$env:LOCALAPPDATA\" -Directory -Force | Where-Object { $_.Name -match 'claude|anthropic' } | Select-Object FullName,LastWriteTime | Format-Table -AutoSize; \"--- .claude root ---\"; Get-ChildItem \"$env:USERPROFILE\\\\.claude\" -Force | Select-Object LastWriteTime,Length,Name | Format-Table -AutoSize)",
+      "PowerShell($d=\"$env:USERPROFILE\\\\.claude\\\\projects\\\\D--AndroidProjects-AniBlaze\"; Get-ChildItem $d -Recurse -File | Sort-Object LastWriteTime -Descending | Select-Object LastWriteTime,@{n='KB';e={[math]::Round\\($_.Length/1KB,1\\)}},Name | Format-Table -AutoSize)",
+      "Read(//e/_СОХРАНИТЬ-с-C-2026-08-02/voidfall/**)",
+      "Bash(mkdir -p tools/out/pan)",
+      "Bash(rm -f tools/out/pan/*)",
+      "Bash(\"E:/GodotProjects/.tools/godot/Godot_v4.7.1-stable_win64_console.exe\" --path \"E:/_СОХРАНИТЬ-с-C-2026-08-02/voidfall\" --headless --write-movie tools/out/pan/pan.png --fixed-fps 60 res://tools/sfxpan.tscn)",
+      "Bash(timeout 200 ./Voidfall.exe --headless -- --autostart --acceptance --nocapture)"
+    ]
+  }
+}

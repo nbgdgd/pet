@@ -1,0 +1,11 @@
+{
+  "id": "claude",
+  "displayName": "Claude",
+  "description": "A tiny orange blocky digital pet with stubby side arms, short legs, and expressive pixel-art poses.",
+  "spritesheetPath": "spritesheet.webp",
+  "author": "XiangWang (github.com/xiangking)",
+  "source": "https://github.com/xiangking/Claude-style-Codex-pet",
+  "mirror": "https://github.com/legeling/awesome-codex-pet/tree/main/pets/claude--xiangking",
+  "license": "MIT (see LICENSE next to this file)",
+  "spritesheet_sha256": "ddab2df6b9f7c52267f6baad85d4c3a5ccceccae6ac1b0f325e97bb5348e0e75"
+}

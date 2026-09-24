@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!-- Центральный блок с вопросом и кнопкой -->
+    <LinearLayout
+        android:layout_width="640dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/overlay_background"
+        android:padding="56dp"
+        android:focusable="false">
+
+        <!-- Иконка/символ сна -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z z z"
+            android:textSize="36sp"
+            android:textColor="#E94560"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <!-- Вопрос "Ты спишь?" -->
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overlay_question"
+            android:textSize="56sp"
+            android:textColor="@color/tv_text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Кнопка "Я не сплю" -->
+        <Button
+            android:id="@+id/btnRespond"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:text="@string/overlay_respond"
+            android:textSize="32sp"
+            android:textColor="@color/tv_button_text"
+            android:background="@drawable/button_background"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="16dp"
+            android:gravity="center"
+            android:nextFocusLeft="@id/btnRespond"
+            android:nextFocusRight="@id/btnRespond"
+            android:nextFocusUp="@id/btnRespond"
+            android:nextFocusDown="@id/btnRespond" />
+
+        <!-- Подсказка -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Нажмите ОК на пульте"
+            android:textSize="18sp"
+            android:textColor="#80FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

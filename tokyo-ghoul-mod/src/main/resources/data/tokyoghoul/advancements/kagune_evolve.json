@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "tokyoghoul:kagune_crystal_rinkaku"},
+        "title": {"translate": "advancements.tokyoghoul.kagune_evolve.title"},
+        "description": {"translate": "advancements.tokyoghoul.kagune_evolve.description"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:first_kill",
+    "criteria": {
+        "evolve_kagune": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "minecraft:diamond"},
+        "title": {"translate": "advancements.tokyoghoul.rank_sss.title"},
+        "description": {"translate": "advancements.tokyoghoul.rank_sss.description"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:kakuja",
+    "criteria": {
+        "rank_sss": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

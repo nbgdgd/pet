@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SleepGuard TV</string>
+    <string name="main_title">SleepGuard TV</string>
+    <string name="main_subtitle">Автоматическая пауза при засыпании</string>
+    <string name="btn_start">Запустить слежение</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="status_inactive">Служба не активна</string>
+    <string name="status_active">Активно</string>
+
+    <string name="overlay_question">Ты спишь?</string>
+    <string name="overlay_respond">Я не сплю</string>
+
+    <string name="settings_title">Настройки SleepGuard</string>
+    <string name="settings_interval">Интервал проверки</string>
+    <string name="settings_timeout">Время ожидания ответа</string>
+    <string name="settings_rewind">Величина перемотки назад</string>
+    <string name="settings_hold">Удержание REWIND (мс)</string>
+    <string name="settings_enable">Включить слежение</string>
+    <string name="settings_permissions">Разрешения</string>
+    <string name="settings_method_label">Способ управления:</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:rc_cell", "functions": [
+                    {"function": "minecraft:set_count", "count": {"min": 20, "max": 40}}
+                ]}
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:kagune_crystal_ukaku"},
+                {"type": "minecraft:item", "name": "tokyoghoul:kagune_crystal_koukaku"},
+                {"type": "minecraft:item", "name": "tokyoghoul:kagune_crystal_rinkaku"},
+                {"type": "minecraft:item", "name": "tokyoghoul:kagune_crystal_bikaku"}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:kakuhou", "conditions": [
+                    {"condition": "minecraft:random_chance", "chance": 0.5}
+                ]}
+            ]
+        }
+    ]
+}

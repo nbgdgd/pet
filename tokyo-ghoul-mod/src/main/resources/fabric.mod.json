@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "tokyoghoul",
+    "version": "${version}",
+    "name": "Tokyo Ghoul",
+    "description": "Полноценная RPG-система гулей для Minecraft. Станьте гулем, развивайте кагуне, охотитесь и эволюционируйте.",
+    "authors": ["AniBlaze Team"],
+    "contact": {
+        "sources": "https://github.com/AniBlaze/tokyo-ghoul-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/tokyoghoul/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.aniblaze.tokyoghoul.TokyoGhoulMod"],
+        "client": ["com.aniblaze.tokyoghoul.TokyoGhoulClient"],
+        "modmenu": ["com.aniblaze.tokyoghoul.compat.ModMenuIntegration"],
+        "cardinal-components-entity": ["com.aniblaze.tokyoghoul.init.GhoulComponentInitializer"]
+    },
+    "mixins": ["tokyoghoul.mixins.json"],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": ">=1.20.0 <=1.20.1",
+        "geckolib": ">=4.4.0"
+    },
+    "custom": {
+        "cardinal-components": ["tokyoghoul:ghoul"],
+        "modmenu": {
+            "links": {
+                "modmenu.discord": "https://discord.gg/aniblaze"
+            }
+        }
+    }
+}

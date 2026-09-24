@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  MSIX manifest for the Microsoft Store build of AudioEarMute.
+
+  Before packaging, replace the three placeholders below with the values Partner Center
+  shows under Product identity once the app name is reserved:
+
+    __IDENTITY_NAME__            e.g. 12345YourName.AudioEarMute
+    __IDENTITY_PUBLISHER__       e.g. CN=A1B2C3D4-1234-5678-9ABC-DEF012345678
+    __PUBLISHER_DISPLAY_NAME__   e.g. Your Publisher Name
+
+  Build-Msix.ps1 does the substitution, so edit the values there rather than here.
+-->
+
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"
+  xmlns:uap11="http://schemas.microsoft.com/appx/manifest/uap/windows10/11"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap uap5 uap11 rescap">
+
+  <Identity
+    Name="__IDENTITY_NAME__"
+    Publisher="__IDENTITY_PUBLISHER__"
+    Version="1.0.0.0"
+    ProcessorArchitecture="x64" />
+
+  <Properties>
+    <DisplayName>AudioEarMute</DisplayName>
+    <PublisherDisplayName>__PUBLISHER_DISPLAY_NAME__</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <!--
+      17763 (Windows 10 1809) is the floor. The windows.startupTask extension needs
+      16299, and full-trust desktop packages are well supported from 1809 onwards.
+    -->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+
+  <Applications>
+    <Application
+      Id="AudioEarMute"
+      Executable="AudioEarMute.exe"
+      EntryPoint="Windows.FullTrustApplication">
+
+      <uap:VisualElements
+        DisplayName="AudioEarMute"
+        Description="Mutes one earpiece so that ear can rest while you keep listening with the other."
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile
+          Square71x71Logo="Assets\SmallTile.png"
+          Square310x310Logo="Assets\LargeTile.png"
+          Wide310x150Logo="Assets\Wide310x150Logo.png"
+          ShortName="AudioEarMute" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#12161F" />
+      </uap:VisualElements>
+
+      <Extensions>
+        <!--
+          Start at logon, the packaged way. Windows owns the switch, and the user finds
+          it under Settings, Apps, Startup and in Task Manager. The unpackaged build
+          registers a Task Scheduler task instead; see Autostart.cs.
+
+          UserConfigurable="true" is what makes the toggle appear to the user. Enabled
+          is left out on purpose so Windows starts it disabled and the user opts in —
+          Store certification frowns on apps that switch themselves on at install.
+        -->
+        <uap5:Extension
+          Category="windows.startupTask"
+          Executable="AudioEarMute.exe"
+          EntryPoint="Windows.FullTrustApplication">
+          <uap5:StartupTask
+            TaskId="AudioEarMuteStartup"
+            DisplayName="AudioEarMute"
+            uap11:UserConfigurable="true" />
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <!--
+      Required for every Win32 desktop app delivered as MSIX. It is a restricted
+      capability, but it is granted automatically for desktop bridge submissions.
+      The app needs no other capability: it touches only the per-user audio mixer.
+    -->
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+
+</Package>

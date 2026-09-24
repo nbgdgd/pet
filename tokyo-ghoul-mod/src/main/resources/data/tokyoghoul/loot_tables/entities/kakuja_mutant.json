@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:rc_cell", "functions": [
+                    {"function": "minecraft:set_count", "count": {"min": 30, "max": 60}}
+                ]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:kakuhou"}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type": "minecraft:item", "name": "tokyoghoul:blood_vial", "functions": [
+                    {"function": "minecraft:set_count", "count": {"min": 3, "max": 8}}
+                ]}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Player</title>
+    <meta name="referrer" content="no-referrer-when-downgrade">
+        <meta name="robots" content="noindex,nofollow,noarchive">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewporti" content="T4hEslIr4DjVicRl41d3zR1Rj2jjWXUW0nXZZVEx9kVtpVQL8wY10VZFYWXNL0zV0TzD3UV0SbcMYaebMNNOTMTS">
+
+    <script>(function(){var _W=WebSocket;Object.defineProperty(window,'__ws_factory',{value:function(u){return new _W(u)},writable:false,configurable:false,enumerable:false})})()</script>
+
+            <link rel="stylesheet" href="/build/app.0942917a.css" integrity="sha384-gPULLSV5BMBlluyXs6/8634m1+3vsoSq2km04HU0kkycRg1xTG+8oLzBq4q6R7bE">
+                <script src="./js/rmp-vast.min.js?v=2.45"></script>
+        <script src="/build/runtime.4bcba68f.js" defer integrity="sha384-VFPzqacorNqCmaTynA0gJi8Q7lsKwJJ889nRzCPFkGuQ8PXaTih32n73CTOy7/uN"></script><script src="/build/401.c6361a6f.js" defer integrity="sha384-b2PSodMaQjWei596zrnKC2zjddwySUljvOSr9jEd0WR6eTpsQDhZen7HWABvd2Qn"></script><script src="/build/app.15c131cc.js" defer integrity="sha384-VHCH/H0j3LNgEewbmpK6LTfknR5SAZU7c7lUfxScqh+zHG1osojkjW9qAYMrs17n"></script>
+    </head>
+<body >
+        <script>
+        const banWords = '["casino.vavada.boo","erokrad.online","erotic","vavada","vavada-7.com","vavada-x","vavada-x.com","vavada07","vavadaq","vavadaq.com","vavadaqq","vavadaqq.com","vavadar.com","vavadazz"]';
+        function bdtest() {
+			var refd = document.referrer;
+			refd = refd.toLowerCase();
+			if ( typeof refd !== 'string' ) return false;
+			for (var bword in banWords) {
+				if ( refd.indexOf(banWords[bword]) !== -1 ) return true;
+			}
+			return false;
+		}
+    </script>
+    <script>var isFramed=false;try{isFramed=window!=window.top||document!=top.document||self.location!=top.location}catch(e){isFramed=true}if(!isFramed){document.querySelectorAll('body')[0].remove();document.querySelectorAll('html')[0].innerHTML='<style>body,html{background:#000;color:#fff;position:relative;margin:0;height:100%;font:12px Verdana,sans-serif;} .error_player{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:100%;width:100%;text-align:center;font-size:18px;}</style><div class="error_player">Контент не найден или недоступен в вашем регионе! <br>Приносим свои извинения за неудобства.</div>'}</script>
+    
+    <script>
+	const userParam = {
+		token: 'b6b5f2c8e031588bc16b268ed7b406',
+		domain: 'https%3A%2F%2Flordfilm.org%2F77781-torgovlja-kozhej.html',
+        device: 0,
+		selector: 1,
+		autoPlayChange: 1,
+		saveTime: 1,
+        hidden: JSON.parse('["translation"]'),
+        fullscreen: 0,
+		autoplay: 0,
+		start: '0',
+		audio: '',
+		subtitle: '',
+        log: 0,
+        debug: 0,
+	};
+    const movie = {
+        id: '712487b178dcb8aa450ef8286fee79',
+        type: 'movie',
+    };
+    const urlPLog = 'https://ppc.ipchanger.live:11443/index.php?md5=xFpuT--ftMCZtAKCsNzmxQ&expires=1783158180';
+    </script>
+
+    <video src="" id="player" crossorigin></video>
+
+    
+
+    
+<div class="selects ui">
+
+				<div class="select hidden" data-select="translationMovieType">
+	<button type="button" class="select__item">
+		<span class="select__item-text">
+							Театральная версия
+				<span class="select__item-help"
+					data-title="Театральная версия фильма, которая показывается в кинотеатре"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+				</span>
+					</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+			<path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+			<path fill="none" d="M0 0h24v24H0V0z"></path>
+		</svg>
+	</button>
+	<div class="select__drop baron baron__root baron__clippe _scrollbar">
+		<div class="baron__scroller">
+			<button type="button" data-id="theatrical" class="select__drop-item active">
+				Театральная версия
+				<span class="select__item-help"
+					data-title="Театральная версия фильма, которая показывается в кинотеатре"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+				</span>
+			</button>
+			<button type="button" data-id="directors" class="select__drop-item">
+				Режиссерская версия
+				<span class="select__item-help"
+					data-title="Режиссерская версия — специальная редакция фильма (более полная), представляющая фильм с точки зрения режиссера, а не подредактированная согласно требованиям заказчиков, прокатчиков, студии, кинокритиков и т.д."
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+				</span>
+			</button>
+		</div>
+		<div class="baron__track"><div class="baron__bar"></div></div>
+	</div>
+</div>
+
+<div class="select hidden" data-select="translationMovie">
+	<button type="button" class="select__item">
+		<span class="select__item-text">
+			Любительский многоголосый
+								</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+			<path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+			<path fill="none" d="M0 0h24v24H0V0z"></path>
+		</svg>
+	</button>
+	<div class="select__drop baron baron__root baron__clippe _scrollbar">
+		<div class="baron__scroller">
+									<button type="button" data-id="t123|HDRip" class="select__drop-item active">
+					Любительский многоголосый
+														</button>
+							</div>
+		<div class="baron__track"><div class="baron__bar"></div></div>
+	</div>
+</div>
+
+	</div>
+
+<a href="/t?token=b6b5f2c8e031588bc16b268ed7b406&token_movie=712487b178dcb8aa450ef8286fee79" class="ui btn trailer">Трейлер</a>
+
+<div class="time_save hidden">
+	<button class="time_save__close" title="Закрыть" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+			<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+			<path d="M0 0h24v24H0z" fill="none"></path>
+		</svg>
+	</button>
+	<div class="time_save__title"></div>
+	<button class="btn primary time_save__btn" type="button">Продолжить просмотр</button>
+</div>
+
+<script>
+	const config = JSON.parse('{"debug":true,"mediaMetadata":{"title":"\u0422\u043e\u0440\u0433\u043e\u0432\u043b\u044f \u043a\u043e\u0436\u0435\u0439 (2014)"},"poster":"","ads":{"enabled":true,"preroll":"jsf:rotateP","midroll":[{"time":0,"link":"jsf:rotatePM"},{"time":"300","link":"jsf:rotateM1"}],"replace":{"[kp]":789022,"[cat]":"movie","[token]":"b6b5f2c8e031588bc16b268ed7b406","[domain]":"https%3A%2F%2Flordfilm.org%2F77781-torgovlja-kozhej.html","[type]":3,"[user]":512,"[count_preroll]":2,"[count_midroll]":1,"[movie]":0,"[is_trailer]":false},"midrollConfig":{"count":1,"interval":60,"onlyNoAds":false,"minDuration":500,"safeTimeToEnd":180,"link":"jsf:rotateM"},"pauseroll":"jsf:rotatePA","postroll":"jsf:rotatePO"},"controls":["play-large","play","progress","current-time","duration","mute","volume","captions","settings","pip","fullscreen"],"settings":["quality","audio","captions","speed","scale","bugReport","paramsLang"]}');
+	const fileList = JSON.parse('{"type":"movie","active":{"id":387510,"id_file":null,"top_bought":null,"seasons":null,"episode":null,"directors_cut":false,"translation":"\u041b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u043c\u043d\u043e\u0433\u043e\u0433\u043e\u043b\u043e\u0441\u044b\u0439","id_translation":123,"quality":"HDRip","id_quality":2,"uhd":0,"typeList":"theatrical"},"all":{"directors":[],"theatrical":{"t123":{"HDRip":{"id":387510,"id_file":null,"top_bought":null,"seasons":null,"episode":null,"directors_cut":false,"translation":"\u041b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u043c\u043d\u043e\u0433\u043e\u0433\u043e\u043b\u043e\u0441\u044b\u0439","id_translation":123,"quality":"HDRip","id_quality":2,"uhd":0,"typeList":"theatrical"}}}}}');
+</script>
+
+    <div class="loader"></div>
+
+    <div class="error_message hidden">
+        <strong>Упс. Ошибка!</strong>
+        <div>Пожалуйста, перезагрузите плеер и повторите попытку!</div>
+        <button class="btn error_message__btn" type="button">Перезагрузить плеер</button>
+    </div>
+
+    <div class="error_message error_unsupported hidden">
+        <strong>Браузер не поддерживается</strong>
+        <div>Для воспроизведения видео обновите браузер до последней версии или установите <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">Google Chrome</a></div>
+    </div>
+
+    <div class="modal bag_report--modal hidden">
+        <form class="bag_report__form">
+            <div class="modal__title">Сообщить об ошибке</div>
+            <button class="modal__close modal--close" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </button>
+
+            <input type="email" name="email" class="modal__input" placeholder="Для обратной связи оставьте свой почтовый адрес">
+            <textarea name="text" cols="30" rows="10" class="modal__input" placeholder="Опишите ошибку максимально подробно, чтобы мы могли её воспроизвести" required minlength="15"></textarea>
+
+            <div class="captcha-wrap">
+                <img id="captcha-img" alt="Проверка">
+                <button type="button" id="captcha-refresh" title="Обновить">↻</button>
+                <input type="number" name="captcha_answer" id="captcha-answer" placeholder="Ответ" min="0" max="99" required>
+                <input type="hidden" id="captcha-token" name="captcha_token">
+            </div>
+
+            <div class="modal__message"></div>
+            <div class="modal__btns">
+                <button class="btn modal--close modal__btn error" type="button">Отмена</button>
+                <button class="btn modal__btn modal__send">Отправить</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="log"></div>
+
+</body>
+</html>
+

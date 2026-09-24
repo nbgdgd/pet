@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "minecraft:emerald"},
+        "title": {"translate": "advancements.tokyoghoul.village_hunter.title"},
+        "description": {"translate": "advancements.tokyoghoul.village_hunter.description"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:first_kill",
+    "criteria": {
+        "kill_villagers": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

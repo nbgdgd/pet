@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeOverlay</string>
+
+    <string name="section_permissions">Разрешения</string>
+    <string name="perm_overlay">Поверх других приложений</string>
+    <string name="perm_usage">Доступ к данным использования</string>
+    <string name="perm_notifications">Уведомления</string>
+    <string name="perm_grant">Выдать</string>
+    <string name="perm_granted">Выдано</string>
+    <string name="perm_missing">Не выдано</string>
+
+    <string name="toggle_title">Оверлей включён</string>
+    <string name="toggle_blocked">Сначала выдай оба обязательных разрешения</string>
+
+    <string name="section_look">Вид</string>
+    <string name="label_size">Размер</string>
+    <string name="label_corner">Скругление углов</string>
+    <string name="label_opacity">Прозрачность</string>
+    <string name="label_bg_color">Цвет фона</string>
+    <string name="label_text_color">Цвет текста</string>
+    <string name="custom_color">Свой цвет</string>
+    <string name="custom_color_hint">RRGGBB или AARRGGBB</string>
+    <string name="custom_color_bad">Непонятный цвет</string>
+    <string name="ok">Готово</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="section_behaviour">Поведение</string>
+    <string name="label_grace">Пауза, после которой счёт начинается заново</string>
+    <string name="grace_15">15 с</string>
+    <string name="grace_30">30 с</string>
+    <string name="grace_60">1 мин</string>
+    <string name="grace_120">2 мин</string>
+    <string name="label_hide_launcher">Прятать на рабочем столе</string>
+    <string name="label_autostart">Запускать после перезагрузки</string>
+
+    <string name="hint_drag">Оверлей перетаскивается пальцем — позиция запоминается</string>
+
+    <string name="tab_settings">Настройки</string>
+    <string name="tab_stats">Статистика</string>
+    <string name="stats_title">Статистика</string>
+    <string name="stats_total">Всего за период</string>
+    <string name="stats_empty">За этот период данных нет</string>
+    <string name="stats_no_permission">Нужен доступ к данным использования</string>
+    <string name="period_today">Сегодня</string>
+    <string name="period_week">7 дней</string>
+    <string name="period_month">30 дней</string>
+
+    <string name="channel_name">Оверлей</string>
+    <string name="notif_title">Таймер работает</string>
+    <string name="notif_text">Считает время в текущем приложении</string>
+    <string name="notif_stop">Выключить</string>
+    <string name="notif_permission_title">Оверлей выключен</string>
+    <string name="notif_permission_text">Разрешение отозвано — открой приложение и выдай заново</string>
+</resources>

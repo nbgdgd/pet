@@ -1,0 +1,74 @@
+# --- Секреты: НИКОГДА не в репозиторий ---
+*.jks
+*.keystore
+keystore.properties
+local.properties
+config.json
+.env
+.env.*
+TelegramBot/config.py
+openrouter-key*
+*.dpapi
+
+# --- Сборка и кэши ---
+build/
+**/build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+node_modules/
+__pycache__/
+*.pyc
+out/
+bin/Debug/
+bin/Release/
+obj/
+
+# --- Готовые сборки, архивы, бинарники ---
+dist/
+AniBlaze-PC*/
+manual-backups/
+.codex-backups/
+*.apk
+*.aab
+*.exe
+*.msix
+*.msi
+*.zip
+*.rar
+*.7z
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Модели (гигабайты) ---
+jarvis-offline/models/
+*.onnx
+*.pt
+*.bin
+
+# --- Логи и мусор ---
+*.log
+hs_err_pid*
+replay_pid*
+build_log*.txt
+*.stackdump
+tmp_*.json
+
+# --- Окружения и копии рантаймов ---
+venv/
+**/venv/
+.venv/
+TelegramBot/backups/
+AniBlaze/runtime/
+**/runtime/lib/
+powertoys-src/
+*.sqlite
+*.db
+TelegramBot/
+/AniBlaze/
+**/bin/Release/
+**/bin/Debug/
+*.dll
+*.pdb

@@ -1,0 +1,10 @@
+{
+  "samples": [
+    "уменьши громкость"
+  ],
+  "patterns": [
+    "уменьши",
+    "громкость"
+  ],
+  "action": "commands.volume.volume_down"
+}

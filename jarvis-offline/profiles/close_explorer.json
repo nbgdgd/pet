@@ -1,0 +1,10 @@
+{
+  "samples": [
+    "закрой проводник"
+  ],
+  "patterns": [
+    "проводник",
+    "закрой"
+  ],
+  "action": "commands.apps.close_explorer"
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {"item": "tokyoghoul:kakuhou"},
+        "title": {"translate": "advancements.tokyoghoul.kakuhou.title"},
+        "description": {"translate": "advancements.tokyoghoul.kakuhou.description"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tokyoghoul:root",
+    "criteria": {
+        "get_kakuhou": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": ["tokyoghoul:kakuhou"]}]
+            }
+        }
+    }
+}

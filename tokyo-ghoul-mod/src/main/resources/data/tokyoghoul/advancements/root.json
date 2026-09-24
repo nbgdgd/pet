@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"item": "tokyoghoul:kakuhou"},
+        "title": {"translate": "advancements.tokyoghoul.root.title"},
+        "description": {"translate": "advancements.tokyoghoul.root.description"},
+        "background": "minecraft:textures/block/blackstone.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "become_ghoul": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

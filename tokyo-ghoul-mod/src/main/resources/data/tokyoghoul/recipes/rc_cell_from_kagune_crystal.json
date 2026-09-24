@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "tokyoghoul:kagune_crystal_ukaku"}
+    ],
+    "result": {"item": "tokyoghoul:rc_cell", "count": 8}
+}

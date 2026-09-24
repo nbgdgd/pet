@@ -1,0 +1,109 @@
+# JARVIS Command History
+# Формат: STT: "сырой текст" | NORM: "нормализованный" | ROUTE: action(None/имя) | CORRECT: 
+# Если команда не распознана — напишите правильное имя после CORRECT:
+#   CORRECT: open_firefox
+# Если команда распознана верно — оставьте CORRECT пустым.
+# Можно удалить всю строку, если она не нужна.
+# Система загрузит правки при следующем запуске или по команде 'обучись по логу'.
+================================================================================
+STT: "от вай фая фолкс" | NORM: "от вай фая фолкс" | ROUTE: NOT_FOUND(0) | CORRECT: open_firefox
+STT: "какой час" | NORM: "какой час" | ROUTE: say_date(71) | CORRECT: 
+STT: "какой час" | NORM: "какой час" | ROUTE: say_date(66) | CORRECT: 
+STT: "открой фокс" | NORM: "открой firefox" | ROUTE: open_firefox(100) | CORRECT: 
+STT: "какой час" | NORM: "какой час" | ROUTE: say_date(66) | CORRECT: 
+STT: "закрой проводник" | NORM: "закрой проводник" | ROUTE: close_explorer(100) | CORRECT: 
+STT: "открой телеграмм" | NORM: "открой телеграмм" | ROUTE: open_telegram(100) | CORRECT: 
+STT: "уменьши громкость" | NORM: "уменьши volume" | ROUTE: volume_down(100) | CORRECT: 
+STT: "открой недавно и фото" | NORM: "открой недавно фото" | ROUTE: open_telegram(50) | CORRECT: 
+STT: "ли телеграмм" | NORM: "ли телеграмм" | ROUTE: open_telegram(100) | CORRECT: 
+STT: "открой дилерам" | NORM: "открой дилерам" | ROUTE: open_telegram(82) | CORRECT: 
+STT: "открой фая аэропорт" | NORM: "открой фая аэропорт" | ROUTE: open_firefox(40) | CORRECT: 
+STT: "открой телеигра телеграмм" | NORM: "открой телеигра телеграмм" | ROUTE: open_telegram(100) | CORRECT: 
+STT: "открой аниблейз" | NORM: "открой аниблейз" | ROUTE: app_index(100) | CORRECT: 
+STT: "который час" | NORM: "time час" | ROUTE: say_time(100) | CORRECT: 
+STT: "загрузка процессора" | NORM: "загрузка процессора" | ROUTE: get_cpu_usage(100) | CORRECT: 
+STT: "сколько дней до 31" | NORM: "сколько дней до 31" | ROUTE: days_until(88) | CORRECT: 
+STT: "привет как дела" | NORM: "привет дела" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скрой все окна" | NORM: "скрой все окна" | ROUTE: show_desktop(75) | CORRECT: 
+STT: "открой аниблейз" | NORM: "открой аниблейз" | ROUTE: app_index(100) | CORRECT: 
+STT: "закрой аниблейз" | NORM: "закрой аниблейз" | ROUTE: app_index(100) | CORRECT: 
+STT: "который час" | NORM: "time час" | ROUTE: say_time(100) | CORRECT: 
+STT: "загрузка процессора" | NORM: "загрузка процессора" | ROUTE: get_cpu_usage(100) | CORRECT: 
+STT: "сколько дней до тридцать первого" | NORM: "сколько дней до тридцать первого" | ROUTE: days_until(82) | CORRECT: 
+STT: "покажи рабочий стол" | NORM: "покажи рабочий стол" | ROUTE: show_desktop(100) | CORRECT: 
+STT: "привет как дела" | NORM: "привет дела" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "громкость 30" | NORM: "volume 30" | ROUTE: volume_30(100) | CORRECT: 
+STT: "стоее всего" | NORM: "стоее всего" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скрой все" | NORM: "скрой все" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой" | NORM: "открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой" | NORM: "открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой" | NORM: "открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "откой" | NORM: "откой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой" | NORM: "открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скрой все" | NORM: "скрой все" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой" | NORM: "открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой открой" | NORM: "открой открой" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скай вся" | NORM: "скай вся" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скрой все" | NORM: "скрой все" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой телеграм" | NORM: "открой телеграм" | ROUTE: open_telegram(100) | CORRECT: 
+STT: "закройте лекран" | NORM: "закрой лекран" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "закрой телеграм" | NORM: "закрой телеграм" | ROUTE: close_telegram(100) | CORRECT: 
+STT: "о телеграмм" | NORM: "о телеграмм" | ROUTE: open_telegram(77) | CORRECT: 
+STT: "открой проводник" | NORM: "открой проводник" | ROUTE: open_explorer(100) | CORRECT: 
+STT: "открой браузер" | NORM: "открой браузер" | ROUTE: open_browser(100) | CORRECT: 
+STT: "проводник" | NORM: "проводник" | ROUTE: close_explorer(77) | CORRECT: 
+STT: "открато возник" | NORM: "открато возник" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "правый проводник" | NORM: "правый проводник" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "проводник" | NORM: "проводник" | ROUTE: close_explorer(77) | CORRECT: 
+STT: "скровь селка" | NORM: "скровь селка" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "скрой все окна" | NORM: "скрой все окна" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "команды" | NORM: "команды" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой телеграмм" | NORM: "открой телеграмм" | ROUTE: open_telegram(77) | CORRECT: 
+STT: "дата и время" | NORM: "дата время" | ROUTE: open_date_time_settings(100) | CORRECT: 
+STT: "игровые настройки" | NORM: "игровые настройки" | ROUTE: open_gaming_settings(100) | CORRECT: 
+STT: "калькулятор" | NORM: "калькулятор" | ROUTE: open_calculator(100) | CORRECT: 
+STT: "диспетчер дачи" | NORM: "диспетчер дачи" | ROUTE: open_task_manager(77) | CORRECT: 
+STT: "открой хром" | NORM: "открой хром" | ROUTE: open_chrome(100) | CORRECT: 
+STT: "кач" | NORM: "кач" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой edge." | NORM: "открой edge" | ROUTE: open_edge(100) | CORRECT: 
+STT: "открой блокнот" | NORM: "открой блокнот" | ROUTE: open_notepad(100) | CORRECT: 
+STT: "создай блокнот" | NORM: "создай блокнот" | ROUTE: open_notepad(77) | CORRECT: 
+STT: "освободи рам." | NORM: "освободи рам" | ROUTE: free_ram(81) | CORRECT: 
+STT: "что за день" | NORM: "за день" | ROUTE: say_day_of_week(100) | CORRECT: 
+STT: "загрузка процессора" | NORM: "загрузка процессора" | ROUTE: get_cpu_usage(100) | CORRECT: 
+STT: "оперативная память" | NORM: "оперативная память" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "использование оперативной памяти" | NORM: "использование оперативной памяти" | ROUTE: get_ram_usage(100) | CORRECT: 
+STT: "сделай скриншот" | NORM: "сделай скриншот" | ROUTE: screenshot(100) | CORRECT: 
+STT: "кыношницы" | NORM: "кыношницы" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой ножницы" | NORM: "открой ножницы" | ROUTE: open_snipping_tool(100) | CORRECT: 
+STT: "каккорзина" | NORM: "каккорзина" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой блютуз" | NORM: "открой блютуз" | ROUTE: open_bluetooth(100) | CORRECT: 
+STT: "теватся" | NORM: "теватся" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "многозадачность" | NORM: "многозадачность" | ROUTE: open_multitasking(100) | CORRECT: 
+STT: "авная задача" | NORM: "авная задача" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "анализ задач" | NORM: "анализ задач" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "о системе" | NORM: "о системе" | ROUTE: open_about_pc(100) | CORRECT: 
+STT: "сквой все окна" | NORM: "сквой все окна" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "сколько дней до двадцать девятого числа" | NORM: "сколько дней до двадцать девятого числа" | ROUTE: days_until(77) | CORRECT: 
+STT: "сколько дней до" | NORM: "сколько дней до" | ROUTE: days_until(100) | CORRECT: 
+STT: "двадцать восьмого" | NORM: "двадцать восьмого" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "и сделай тише" | NORM: "сделай тише" | ROUTE: volume_down(100) | CORRECT: 
+STT: "сделай громче" | NORM: "сделай громче" | ROUTE: volume_up(100) | CORRECT: 
+STT: "сделай тише" | NORM: "сделай тише" | ROUTE: volume_down(100) | CORRECT: 
+STT: "open telegram." | NORM: "open telegram" | ROUTE: open_telegram(100) | CORRECT: 
+STT: "клес телеграм" | NORM: "клес телеграм" | ROUTE: open_telegram(77) | CORRECT: 
+STT: "куз телеграм" | NORM: "куз телеграм" | ROUTE: open_telegram(77) | CORRECT: 
+STT: "закрой телеграмм." | NORM: "закрой телеграмм" | ROUTE: close_telegram(100) | CORRECT: 
+STT: "ононаправление" | NORM: "ононаправление" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "панель управления" | NORM: "панель управления" | ROUTE: open_control_panel(100) | CORRECT: 
+STT: "диспетчера задач" | NORM: "диспетчера задач" | ROUTE: open_task_manager(96) | CORRECT: 
+STT: "загрузка процессора" | NORM: "загрузка процессора" | ROUTE: get_cpu_usage(100) | CORRECT: 
+STT: "оперативная память" | NORM: "оперативная память" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "загрузка оперативной памяти" | NORM: "загрузка оперативной памяти" | ROUTE: get_ram_usage(72) | CORRECT: 
+STT: "очисти корзину" | NORM: "очисти корзину" | ROUTE: empty_recycle_bin(100) | CORRECT: 
+STT: "откройтесь тсейчас удачи" | NORM: "откройтесь тсейчас удачи" | ROUTE: NOT_FOUND(0) | CORRECT: 
+STT: "открой диспетчер здач" | NORM: "открой диспетчер здач" | ROUTE: open_task_manager(97) | CORRECT: 
+STT: "закрой диспетчер задач" | NORM: "закрой диспетчер задач" | ROUTE: open_task_manager(85) | CORRECT: 
+STT: "закрой диспетчер задач" | NORM: "закрой диспетчер задач" | ROUTE: open_task_manager(85) | CORRECT: 
+STT: "закрой диспетчер сдач" | NORM: "закрой диспетчер сдач" | ROUTE: app_index(100) | CORRECT: 
+STT: "диспетчер задач" | NORM: "диспетчер задач" | ROUTE: open_task_manager(100) | CORRECT: 

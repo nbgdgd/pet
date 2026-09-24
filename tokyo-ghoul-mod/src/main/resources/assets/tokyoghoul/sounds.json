@@ -1,0 +1,30 @@
+{
+    "kagune_activate": {
+        "subtitle": "subtitles.tokyoghoul.kagune_activate",
+        "sounds": ["tokyoghoul:kagune_activate"]
+    },
+    "kagune_deactivate": {
+        "subtitle": "subtitles.tokyoghoul.kagune_deactivate",
+        "sounds": ["tokyoghoul:kagune_deactivate"]
+    },
+    "blood_spear_throw": {
+        "subtitle": "subtitles.tokyoghoul.blood_spear_throw",
+        "sounds": ["tokyoghoul:blood_spear_throw"]
+    },
+    "blood_explosion": {
+        "subtitle": "subtitles.tokyoghoul.blood_explosion",
+        "sounds": ["tokyoghoul:blood_explosion"]
+    },
+    "ghoul_roar": {
+        "subtitle": "subtitles.tokyoghoul.ghoul_roar",
+        "sounds": ["tokyoghoul:ghoul_roar"]
+    },
+    "consume": {
+        "subtitle": "subtitles.tokyoghoul.consume",
+        "sounds": ["tokyoghoul:consume"]
+    },
+    "kakuja_transform": {
+        "subtitle": "subtitles.tokyoghoul.kakuja_transform",
+        "sounds": ["tokyoghoul:kakuja_transform"]
+    }
+}

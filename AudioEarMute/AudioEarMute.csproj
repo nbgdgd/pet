@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AudioEarMute</RootNamespace>
+    <AssemblyName>AudioEarMute</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <EnableComHosting>false</EnableComHosting>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- Shown in the file properties dialog and read by Store certification. -->
+  <PropertyGroup>
+    <Product>AudioEarMute</Product>
+    <AssemblyTitle>AudioEarMute</AssemblyTitle>
+    <Description>Mutes one earpiece so that ear can rest while you keep listening with the other.</Description>
+    <Company>AudioEarMute</Company>
+    <Copyright>Copyright (c) 2026</Copyright>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Минимальное разрешение для TV-баннера -->
+    <dimen name="tv_banner_width">320dp</dimen>
+    <dimen name="tv_banner_height">180dp</dimen>
+</resources>

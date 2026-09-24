@@ -1,0 +1,11 @@
+[JARVIS] DEBUG=True
+[JARVIS] WAKE_WORD_REQUIRED=True
+[JARVIS] Text fallback=False
+[JARVIS] Dangerous confirm=True
+[DEBUG] Loading Vosk...
+[DEBUG] Loading commands...
+[DEBUG] Loaded 1 corrections from command history log
+[JARVIS] «агружено 1 исправлений из лога команд.
+[JARVIS] Gotov.
+[DEBUG] Mikrofon: standart
+[DEBUG] Waiting 'dzhazvis'...
